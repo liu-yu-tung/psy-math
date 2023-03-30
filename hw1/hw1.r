@@ -52,7 +52,6 @@ for (i in 1:10) {
 mod1=nll.1(par10, y20=data)
 #mod1=optim(par,nll.1,y20=data)
 par_m1 = mod1
-print("params 1") # print the value of model 1
 # print(par_m1)
 par=1:6
 for (i in 1:6) {
